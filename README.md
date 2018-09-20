@@ -1,4 +1,5 @@
 # whatsapp-hashblock
+Chrome Extension to hide images that are tagged with certain hashtags.
 Use hashtags in your whatsapp groups to block undesired content. #NoMoreSpoilers
 
 # Usage
