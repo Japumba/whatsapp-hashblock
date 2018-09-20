@@ -1,0 +1,14 @@
+.spoiler ._3v3PK {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Stop.svg/500px-Stop.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.spoiler img {
+    display: none;
+}
+
+.spoiler ._3CnDa {
+    display: none;
+}

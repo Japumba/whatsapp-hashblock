@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "WhatSpoiler",
+    "description": "Hide your friend's spoilers with just a #spoiler tag.",
+    "version": "1",
+    "author": "Javier de la Mora",
+    "browser_action": {
+        "default_icon": "/img/if_denied_1055074.png",
+        "default_title": "F##k Spoilers",
+        "default_popup": "views/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "/css/styles.css"
+            ],
+            "js": [
+                "/scripts/jquery/jquery-3.3.1.min.js",
+                "/scripts/spoilerHider.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
