@@ -39,7 +39,7 @@ function refreshSettings() {
         node.appendChild(hashtagNode);
 
         let deleteIcon = document.createElement("i");
-        deleteIcon.classList.add("btn", "fas", "fa-minus-circle", "float-right", "text-danger");
+        deleteIcon.classList.add("btn", "fas", "fa-minus-circle", "float-right", "text-danger", "px-0");
         deleteIcon.onclick = () => { removeHashtag(hashtag); }
 
         node.appendChild(deleteIcon);
